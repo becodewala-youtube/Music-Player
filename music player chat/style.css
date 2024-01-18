@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Poppins:wght@500&display=swap');
+
+
+body{
+    background: linear-gradient(to right, rgb(136, 180, 240), rgb(123, 158, 229));
+    color: rgb(83, 77, 77);
+    font-family: 'Comfortaa', cursive;
+font-family: 'Poppins', sans-serif;
+}
+#music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background: rgba(190, 9, 9, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    width: 19rem;
+    background: white;
+    margin-left: 37rem;
+    margin-top: 7rem;
+
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+#cover {
+    width: 300px;
+    height: 300px;
+}
+.fas {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #5e84ff;
+    font-size: 1.8rem;
+}
+
+.fas:hover {
+    color: #ff5e62;
+}
+#title{
+    color: #ff5e62;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+#artist{
+    color: rgb(38, 35, 35);
+    margin-top: 0;
+    font-size: .8rem;
+}
+.fa-user{
+    color: red;
+    
+}
